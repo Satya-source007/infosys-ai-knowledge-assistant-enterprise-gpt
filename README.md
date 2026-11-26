@@ -141,7 +141,7 @@ This platform was built through collaborative cross-functional engineering, with
 | **Anamika** | **Authentication & Database Architect** | • Role-Based Access Control (RBAC) modeling (`Admin`, `Employee`, `Employer`)<br>• Password security with `passlib` bcrypt hashing and JWT token issuance/verification<br>• PostgreSQL relational schema design (`users`, `roles`, `documents`, `query_history`) |
 | **Manapriti** | **Document Ingestion & Text Chunking Engineer** | • High-fidelity PDF document parsing pipeline using `PyMuPDF` (`fitz`)<br>• Space-aware sliding window text chunking algorithm (850-character window / 150-character overlap)<br>• Metadata preservation ensuring page-level traceability across all chunks |
 | **Siddhant** | **Embeddings & Vector Retrieval Engineer** | • Integration of Google Gemini embedding pipeline (`gemini-embedding-001`, 1,536 dimensions)<br>• `pgvector` database indexing and query vector embedding (`RETRIEVAL_QUERY`)<br>• Cosine distance optimization with rigorous similarity thresholding ($\text{similarity} \ge 0.60$) |
-| **Satyajeet** | **AI Answer Generation & API Integration Engineer** | • Core FastAPI `/query` endpoint implementation and request validation (`Pydantic`)<br>• Zero-hallucination prompt engineering for Google Gemini 3.5 Flash Lite synthesis<br>• Structured source citation packaging and query history audit logging |
+| **Satyajit Pattnayak** | **AI Answer Generation & API Integration Engineer** | • Core FastAPI `/query` endpoint implementation and request validation (`Pydantic`)<br>• Zero-hallucination prompt engineering for Google Gemini 3.5 Flash Lite synthesis<br>• Structured source citation packaging and query history audit logging |
 | **Mohammad Suhel** | **Testing & Quality Assurance Engineer** | • Comprehensive test suite authoring across access control, auth, and ingestion<br>• RAG retrieval accuracy verification, cosine threshold edge-case validation<br>• Integration testing (`pytest`, `httpx`), error handling, and end-to-end QA validation |
 
 ---
@@ -396,11 +396,3 @@ pytest tests/functional_tests/ -v
 | `GET` | `/analytics/dashboard-stats`| Authenticated | Returns real-time counts of documents, chunks, queries, and active departments |
 
 ---
-
-## 👨‍💻 Project Lead & Contact
-
-**Ujwal Bamb**  
-*Team Lead \| Machine Learning & Full-Stack Systems Integration*  
-- **LinkedIn**: [linkedin.com/in/ujwal-bamb-276b04330](https://www.linkedin.com/in/ujwal-bamb-276b04330)  
-- **GitHub**: [github.com/Ujwal-Bamb](https://github.com/Ujwal-Bamb)  
-- **Portfolio Repository**: [infosys-ai-knowledge-assistant-enterprise-gpt](https://github.com/Ujwal-Bamb/infosys-ai-knowledge-assistant-enterprise-gpt.git)
